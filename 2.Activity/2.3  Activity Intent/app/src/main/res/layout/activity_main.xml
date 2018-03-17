@@ -7,16 +7,36 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Show Toast"
+        android:text="显式Intent"
         android:id="@+id/button1"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Finish activity"
+        android:text="隐式Intent"
         android:id="@+id/button2"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式Intent baidu"
+        android:id="@+id/button3"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过 intent 向下一个活动传递数据"
+        android:id="@+id/button4"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过 intent 向上一个活动传递数据"
+        android:id="@+id/button5"
+        />
 </LinearLayout>
 

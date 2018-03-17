@@ -8,8 +8,8 @@ This is my respository for "Mobile application development - Android" homework. 
 | HelloAndroid                    | [点此进入](https://github.com/Tochase/AndroidTutorials/tree/master/HelloAndroid) |
 | **Chapter 2**                   |                                                              |
 | 2.2  Activity Toast Menu Finish |                         [点此进入]()                         |
-|                                 |                         [点此进入]()                         |
-|                                 |                         [点此进入]()                         |
+| 2.3 Activity Intent             |                         [点此进入]()                         |
+| 2.4 ActivityLifeCycleTest       |                         [点此进入]()                         |
 |                                 |                                                              |
 |                                 |                                                              |
 |                                 |                                                              |
