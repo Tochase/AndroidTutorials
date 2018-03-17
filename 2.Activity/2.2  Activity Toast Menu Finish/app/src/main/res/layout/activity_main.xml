@@ -7,8 +7,15 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button 1"
+        android:text="Show Toast"
         android:id="@+id/button1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish activity"
+        android:id="@+id/button2"
         />
 
 </LinearLayout>
