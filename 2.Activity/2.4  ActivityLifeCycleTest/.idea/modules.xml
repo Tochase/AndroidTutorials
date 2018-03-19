@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/2.4  ActivityLifeCycleTet.iml" filepath="$PROJECT_DIR$/2.4  ActivityLifeCycleTet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.4  ActivityLifeCycleTest.iml" filepath="$PROJECT_DIR$/2.4  ActivityLifeCycleTest.iml" />
+      <module fileurl="file://D:\androidproject\AndroidTutorials\2.Activity\2.4  ActivityLifeCycleTest\2.4  ActivityLifeCycleTet.iml" filepath="D:\androidproject\AndroidTutorials\2.Activity\2.4  ActivityLifeCycleTest\2.4  ActivityLifeCycleTet.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blue"
+        android:text="BLUE"
+        android:layout_centerInParent="true"
+        android:padding="20sp"
+        android:background="#0000FF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GREEN"
+        android:layout_toLeftOf="@+id/blue"
+        android:layout_centerVertical="true"
+        android:padding="20sp"
+        android:layout_marginRight="20px"
+        android:background="#00FF00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INDIGO"
+        android:layout_toRightOf="@+id/blue"
+        android:layout_centerVertical="true"
+        android:padding="20sp"
+        android:layout_marginLeft="20px"
+        android:background="#4A0084"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORANGE"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="20sp"
+        android:background="#FFA600"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RED"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="20sp"
+        android:background="#FF0000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YELLOW"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:padding="20sp"
+        android:background="#FFFF00"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YELLOW"
+        android:layout_alignParentBottom="true"
+        android:padding="20sp"
+        android:gravity="center"
+        android:background="#EF82EF" />
+</RelativeLayout>
