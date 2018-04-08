@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CustomMenu</string>
+
+    <string name="menu_Font">字体大小</string>
+    <string name="menu_Normal">普通菜单项</string>
+    <string name="menu_Color">字体颜色</string>
+    <string name="menu_font_small">小号</string>
+    <string name="menu_font_middle">中号</string>
+    <string name="menu_font_big">大号</string>
+    <string name="menu_color_red">红色</string>
+    <string name="menu_color_black">黑色</string>
+</resources>

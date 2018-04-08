@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/menu_Font">
+        <menu>
+            <item
+                android:id="@+id/menu_font_small"
+                android:title="@string/menu_font_small"/>
+            <item
+                android:id="@+id/menu_font_middle"
+                android:title="@string/menu_font_middle"/>
+            <item
+                android:id="@+id/menu_font_big"
+                android:title="@string/menu_font_big"/>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/menu_normal"
+        android:title="@string/menu_Normal">
+    </item>
+    <item android:title="@string/menu_Color">
+        <menu>
+            <item
+                android:id="@+id/menu_color_red"
+                android:title="@string/menu_color_red" />
+            <item
+                android:id="@+id/menu_color_black"
+                android:title="@string/menu_color_black"/>
+        </menu>
+    </item>
+</menu>
