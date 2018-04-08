@@ -10,7 +10,7 @@
         android:padding="5dp"
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp"
-        android:src="@drawable/ic_launcher" />
+        android:src="@drawable/test" />
 
     <TextView
         android:id="@+id/textView"

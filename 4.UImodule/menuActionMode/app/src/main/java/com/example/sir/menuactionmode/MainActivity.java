@@ -1,5 +1,6 @@
 package com.example.sir.menuactionmode;
 
+import android.app.ListActivity;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,7 +18,7 @@ import android.widget.ListView;
 import java.util.HashMap;
 import java.util.Set;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends ListActivity {
 
     private String[] data = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine","Ten"};
     private SelectionAdapter mAdapter;
@@ -25,8 +26,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         mAdapter = new SelectionAdapter(this,
-                R.layout.list_view_items, R.id.textView1, data);
+                R.layout.row_list_item, R.id.textView1, data);
         setListAdapter(mAdapter);
         getListView().setChoiceMode(ListView.CHOICE_MODE_MULTIPLE_MODAL);
 
@@ -97,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     private class SelectionAdapter extends ArrayAdapter<String> {
 
         private HashMap<Integer, Boolean> mSelection = new HashMap<Integer, Boolean>();
