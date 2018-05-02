@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Setting</string>
+    <string-array name="show">
+        <item>Alpha Option 01</item>
+        <item>Beta Option 02</item>
+        <item>Charlie Option 03</item>
+    </string-array>
+    <string-array name="show_key">
+        <item>001</item>
+        <item>002</item>
+        <item>003</item>
+    </string-array>
+</resources>
