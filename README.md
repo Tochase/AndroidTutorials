@@ -19,5 +19,6 @@ This is my respository for "Mobile application development - Android" homework. 
 | 4.2 AlertDialog                | [点此进入](https://github.com/Tochase/AndroidTutorials/tree/master/4.UImodule/AlertDialog) |
 | 4.3 CustomMenu                 | [点此进入](https://github.com/Tochase/AndroidTutorials/tree/master/4.UImodule/CustomMenu) |
 | 4.4 menuActionMode             | [点此进入](https://github.com/Tochase/AndroidTutorials/tree/master/4.UImodule/menuActionMode) |
-|                                |                                                              |
+| **Chapter 5  Setting**         | [点此进入](https://github.com/Tochase/AndroidTutorials/tree/master/5.Setting) |
+| **Chapter 6  Intent**          | [点此进入](https://github.com/Tochase/AndroidTutorials/tree/master/6.Intent) |
 
